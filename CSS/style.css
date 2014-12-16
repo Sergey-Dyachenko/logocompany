@@ -1,0 +1,257 @@
+header,.mount,.white-space, .blue-space, ul.slides_rotator,.map-space{ 
+        margin: 0px;
+        padding:0px;
+}
+
+header{
+    background:#f7fdfe;
+    height:80px;
+    width:100%;
+    position:fixed;
+    z-index: 9999;
+   
+    opacity:0.9;
+}
+
+.content-center{
+    width:960px;
+    margin: 0 auto;
+}
+
+h2{
+    text-transform: uppercase;
+    font:bold 30px MuseoSans_500, Arial,sans-serif;
+    color:#82868f;
+    margin-top: 1em;
+}
+
+#nav-style{
+    margin-top:28px;
+    
+}
+
+#nav-style li{
+    margin-right:10px;
+}
+
+#nav-style li:last{
+    margin-right:0px;
+}
+
+#nav-style li a{
+    background-color:#f7fdfe;
+    color:#82868f;
+    text-transform: uppercase;
+    font: 1em MuseoSans_500, Arial,sans-serif;
+}
+
+#btn-style.hover, #btn-style{
+    color:#0ebfdd;
+    border-radius: 20px;
+    padding-left:2em;
+    padding-right:2em;
+    color:#fff;
+    font: 1em MuseoSans_500, Arial,sans-serif;
+    text-transform: uppercase;
+}
+
+.mount{
+    background-size:100% 599px;
+    background-image:url("../img/mount.jpg");
+    background-repeat:no-repeat;
+    height:599px;
+}
+
+.mount-center{
+   width:960px;
+   margin: 0 auto; 
+}
+
+
+.our-mission-block{
+    margin-top: 28em;
+}
+
+.our-mission-text{
+    color:#f7fdfe;
+    font-size: 3.2em;
+    font-family: Avenir-Heavy;
+    padding-left: 10px;
+    background:url("../img/two-star.png") 50% 50% no-repeat;/*star right into block text*/
+    text-align:center;
+}
+
+.lorem-ipsum-text{
+    padding:10px 35px;
+    text-align:center;
+    color:#f7fdfe;
+    font-family: Avenir-Medium;
+}
+
+.white-space{
+    height:250px;
+    background: #fff;
+}
+
+.about-text{
+    color:#0ebfdd;
+    font-size: 3.2em;
+    font-family: Avenir-Heavy;
+    padding-left: 10px;
+    padding-top: 1.2em;
+    text-align:center;
+}
+
+.lorem-ipsum-block-about{
+  width:990px;  
+}
+
+.lorem-ipsum-text-about{
+   color:#45494d; 
+   padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
+    text-align:center;
+    font-family: Avenir-Medium;
+    width:660px;
+}
+
+.blue-space{
+    height:600px;
+    background: #0ebfdd;
+}
+
+.team-text{
+    color:#fff;
+    font:3.2em Avenir-Heavy, Arial, sans-serif;
+    padding-left: 10px;
+    padding-top: 1.2em;
+    text-align:center;
+}
+
+/*Slider style begin*/
+
+
+div.wrap{
+    margin: 50px auto;
+    width: 600px;
+    
+}
+
+ul.slides_rotator{
+	position: relative;
+    list-style: none;
+}
+
+div.rotator{
+
+	margin: 0 auto;
+    position: relative;
+}
+
+a.rotator-nav{
+	position: absolute;
+	top: 50%;
+	margin-top: -16px;
+	z-index: 3;
+	cursor: pointer;	
+}
+
+
+a.rotator-nav div{
+	height: 60px;
+	width: 32px;
+	background: url('../img/nav.png')  no-repeat;	
+}
+
+#rotator-left{
+	left:-16px;	
+}
+
+#rotator-left div{
+	background-position: 0 0;	
+}
+
+#rotator-left:hover div{
+	background-position: 0 -60px;	
+}
+
+#rotator-right{
+	right:-50px;
+}
+
+#rotator-right div{
+	background-position: -35px 0;	
+}
+
+#rotator-right:hover div{
+	background-position: -35px -60px;
+}
+
+/*Slider style end*/
+
+
+.center-btn{
+    margin-top:9em;
+    
+}
+
+#btn-style2{
+    border:1px solid #fff;
+    border-radius:20px;
+    padding:8px 30px;
+    font-family:MuseoSans_900;
+    font-size:1em;
+    background:#0ebfdd ;
+}
+
+.map-space{
+    height:600px;
+    background: #55c45f;
+    width:100%;
+}
+
+#map-canvas{
+    height:600px;
+    
+}
+/*Footer style begin*/
+.footer-space{
+    height:140px;
+    background: #45494d;
+     width:100%;
+}
+
+#nav-footer-style-div{
+    padding:0px;
+}
+
+#nav-footer-style li a, #nav-footer-style li a:hover{
+    font:1em MuseoSans_500, Arial,sans-serif;
+    color:#d7dee4;
+    text-transform:uppercase;
+}
+
+#nav-footer-style-2 li a{
+    font:0.9em MuseoSans_500, Arial, sans-serif;
+    color:#5c6063;
+    margin-right:0px;
+}
+
+.footer-row-one{
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer-row-two{
+    border-top: 1px solid #5a5e62;
+}
+
+.col-md-4-social {
+ background: url("../img/social.png");
+ width:164px;
+ height:53px; 
+ margin-left: 10.7em; 
+}
+/*Footer style end*/
